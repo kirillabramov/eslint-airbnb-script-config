@@ -1,1 +1,0 @@
-# eslint-airbnb-script-config
