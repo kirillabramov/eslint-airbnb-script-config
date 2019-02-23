@@ -31,3 +31,11 @@ cd myApp
 - .prettierrc
 
 This script follows this [tutorial](https://blog.echobind.com/integrating-prettier-eslint-airbnb-style-guide-in-vscode-47f07b5d7d6a) by Jeffrey Zhen.
+
+In VSCode UserSettings add
+{
+"editor.formatOnSave": true,
+"eslint.autoFixOnSave": true,
+"eslint.alwaysShowStatus": true,
+"files.autoSave": "onFocusChange",
+}
