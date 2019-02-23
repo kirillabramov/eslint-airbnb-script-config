@@ -19,6 +19,7 @@ npm install -D eslint-config-prettier eslint-plugin-prettier eslint-plugin-flowt
 echo -e "4/5 ${YELLOW}Creating ESLint JSON... ${NC}"
 touch .eslintrc.json
 
+
 echo '{
   "extends": ["airbnb", "prettier", "react-app", "plugin:prettier/recommended"],
   "plugins": ["prettier"],
